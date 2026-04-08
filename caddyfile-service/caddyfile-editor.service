@@ -1,0 +1,13 @@
+[Unit]
+Description=flycast-caddyfile-service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/FlycastCaddyfileService
+Restart=on-failure
+Environment=ACCESS_TOKEN=YourToken
+Environment=PORT=3030
+Environment=CADDYFILE_PATH=/etc/caddy/Caddyfile
+
+[Install]
+WantedBy=multi-user.target
