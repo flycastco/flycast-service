@@ -21,7 +21,7 @@
 
 ## 相关项目
 
-- [flycast-web](https://github.flycastco/flycastco/flycast-web) — flycast.co 前端（Vue 3 + Vite）
+- [flycast-web](https://github.com/flycastco/flycast-web) — flycast.co 前端（Vue 3 + Vite）
 
 ## License
 
